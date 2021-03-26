@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sass/style.css">
+    <script src="https://kit.fontawesome.com/4093632a17.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header__li"><a href="#mis-datos" class="header__link">Datos</a></li>
+                <li class="header__li"><a href="#acerca-de-mi" class="header__link">Acerca de Mi</a></li>
+                <li class="header__li"><a href="#tecnologias" class="header__link">Tecnologías</a></li>
+                <li class="header__li"><a href="#proyectos" class="header__link">Proyectos</a></li>
+                <li class="header__li"><a href="#contactame" class="header__link">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="main__hero">
+            <div class="main__circle"></div>
+            <div class="main__titlecontainer">
+                <h1 class="main__title">Max De La Rosa Toro</h1>
+                <h2 class="main__subtitle">Portafolio de Desarrollador</h2>
+            </div>
+        </section>
+
+        <section class="main__section" id="mis-datos">
+            <h2 class="main__subtitle">Mis Datos</h2>
+            <img src="./img/perfil.PNG" alt="Foto de perfil" class="main__profile-img">
+            <ul class="main__datosul">
+                <li class="main__datosli"><strong>Nombre: </strong></li>
+                <li class="main__datosli">Max De La Rosa Toro</li>
+                
+                <li class="main__datosli"><strong>Carrera: </strong></li>
+                <li class="main__datosli">Ingeniería Industrial</li>
+
+                <li class="main__datosli"><strong>Edad: </strong></li>
+                <li class="main__datosli">25 Años</li>
+
+                <li class="main__datosli"><strong>Ubicación: </strong></li>
+                <li class="main__datosli">Lima, Perú</li>
+            </ul>
+
+        </section>
+
+        <section class="main__section" id="acerca-de-mi">
+            <h2 class="main__subtitle">Acerca de Mi</h2>
+            <img src="./img/cabo-blanco.png" alt="surfing en cabo blanco" class="main__acerca-de-mi-img">
+            <div class="main__paragraph-box">
+                <p class="main__paragraph">Soy un Ingeniero Industrial graduado de la Universidad de Lima en Perú.</p>
+                <p class="main__paragraph">Me apasiona el desarrollo de software, ya que tengo una mente muy analítica y a la vez creativa.</p>
+                <p class="main__paragraph">Aparte del desarrollo web, el surf es una de mis pasiones más grandes, junto con la música. Mi instrumento preferido es la guitarra y me encanta tocar música de los años 90s.</p>
+            </div>
+        </section>
+
+        <section class="main__section" id="tecnologias">
+            <h2 class="main__subtitle">Tecnologías de Desarrollo</h2>
+            <ul class="main__ul-tecnologia">
+
+                <div class="main__tecnologia-div">
+                    <li class="main__li-tecnologia">HTML 5</li>
+                    <img src="./img/tecnologias/html5.png" alt="html5 logo" class="main__tecnologia-img">
+                </div>
+                <div class="main__tecnologia-div">
+                    <li class="main__li-tecnologia">CSS 3</li>
+                    <img src="./img/tecnologias/css3.png" alt="css3 logo" class="main__tecnologia-img">
+                </div>
+                <div class="main__tecnologia-div">
+                    <li class="main__li-tecnologia">SASS</li>
+                    <img src="./img/tecnologias/sass.png" alt="sass logo" class="main__tecnologia-img">
+                </div>
+                
+                
+            </ul>
+        </section>
+
+        <section class="main__section" id="proyectos">
+            <h2 class="main__subtitle">Proyectos Desarrollados</h2>
+            <div class="main__project-grid">
+                <div class="main__project">
+                    <h3 class="main__sub-subtitle">Tributo a Soundgarden</h3>
+                    <img src="./img/portafolio/soundgarden.png" alt="portada de página web de soundgarden" class="main__project-image">
+                </div>
+                <div class="main__project">
+                    <h3 class="main__sub-subtitle">Evento</h3>
+                    <img src="./img/portafolio/evento.png" alt="portada de página web de evento" class="main__project-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="main__section" id="contactame">
+            <form action="" class="main__form">
+                <h2 class="main__subtitle">Contáctame</h2>
+                    <label for="nombre" class="main__form-label">Nombre</label>
+                    <input type="text" class="main__form-input" id="nombre">
+
+                    <label for="apellido" class="main__form-label">Apellido</label>
+                    <input type="text" class="main__form-input" id="apellido">
+
+                    <label for="email" class="main__form-label">Email</label>
+                    <input type="email" class="main__form-input" id="email">
+
+
+                    <label for="comentarios" class="main__form-label">Comentarios</label>
+                    <textarea name="" id="" cols="30" rows="10" class="main__form-textarea" id="comentarios"></textarea>
+
+
+                    <button type="submit" class="main__form-button">Enviar</button>
+                
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__paragraph">Todos los derechos reservados</p>
+        <div class="footer__social-container">
+            <a href="https://www.facebook.com/mdelarosa12345" class="footer__social-link">
+                <i class="footer__social fab fa-facebook-square fa-2x"></i>
+            </a>
+
+            <a href="https://www.twitter.com" class="footer__social-link">
+                <i class="footer__social fab fa-twitter-square fa-2x"></i>
+            </a>
+
+            <a href="https://www.linkedin.com" class="footer_social-link">
+                <i class="footer__social fab fa-linkedin fa-2x"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
